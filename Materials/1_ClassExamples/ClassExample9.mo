@@ -14,7 +14,7 @@ package ClassExample9
     SI.Energy U;
   equation
     M = medium.d * V;
-    U = medium.u * V;
+    U = medium.u * M;
     der(M) = m_flow;
     der(U) = Q_flow + medium.h * m_flow;
     medium.p = p_amb;
@@ -35,7 +35,7 @@ package ClassExample9
     SI.Energy U;
   equation
     M = medium.d * V;
-    U = medium.u * V;
+    U = medium.u * M;
     der(M) = port_b.m_flow;
     der(U) = port_a.Q_flow + actualStream(port_b.h_outflow) * port_b.m_flow;
     port_b.p = medium.p;
