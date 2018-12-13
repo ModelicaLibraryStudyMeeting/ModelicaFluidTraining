@@ -19,3 +19,4 @@ Modelica Standard Library (MSL) に含まれる Modelica.Fluid を解説した�
 4は圧力損失について解説しました。
 
 PPTX は資料の原稿です。
+MAC の PowerPoint で編集しました。Windows の PowerPoint で読み込むと図の文字がずれます。
