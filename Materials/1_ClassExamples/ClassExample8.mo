@@ -24,7 +24,7 @@ package ClassExample8
 
 
 
-  model MediuStateTest
+  model MediaStateTest
     replaceable package Medium = Media.Air.DryAirNasa; 
     MediaState mediaState1(redeclare package Medium = Medium) annotation(
       Placement(visible = true, transformation(origin = {-20, 0}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
@@ -47,7 +47,7 @@ package ClassExample8
       Line(points = {{-48, 20}, {-45, 20}, {-45, 10}, {-34, 10}, {-34, 4}, {-26, 4}}, color = {0, 0, 127}));
     connect(temperature1.y, mediaState1.T) annotation(
       Line(points = {{-49, -22}, {-32, -22}, {-32, -4}, {-26, -4}}, color = {0, 0, 127}));
-  end MediuStateTest;
+  end MediaStateTest;
 
 
 
