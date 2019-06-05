@@ -27,4 +27,4 @@ MAC の PowerPoint で編集しました。Windows の PowerPoint で読み込�
 
 5. Modelica.Fluid.Machines の遠心ポンプモデルについて
 
-5以降は、Components にあり、Keynote や OmniGraffie で書いた原稿は Component/Keynote に入っています。
+5以降は、Components にあり、Keynote や OmniGraffie で書いた原稿は Components/Keynote に入っています。
