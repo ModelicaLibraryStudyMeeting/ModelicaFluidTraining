@@ -3,6 +3,10 @@ Modelica Standard Library (MSL) に含まれる Modelica.Fluid を解説した�
 本資料は、オープンCAEシンポジウム2017で実施された講習会で使用したもので、
 著作権はオープンCAE学会にあり、CC BY-NC ライセンスの下で再配布や改変が可能です。
 
+上の資料に含まれない Modelica.Fluid のコンポーネントに関する資料も順次追加しようと思います。
+まずは、pump に関する資料を追加しました。
+この追加資料の著作権は Amane Tanaka にあり、Modelica License 2 の下で再配布や改変が可能です。
+
 ---
 ## 内容
 
@@ -20,3 +24,7 @@ Modelica Standard Library (MSL) に含まれる Modelica.Fluid を解説した�
 
 PPTX は資料の原稿です。
 MAC の PowerPoint で編集しました。Windows の PowerPoint で読み込むと図の文字がずれます。
+
+5. Modelica.Fluid.Machines の遠心ポンプモデルについて
+
+5以降は、Components にあり、Keynote や OmniGraffie で書いた原稿は Component/Keynote に入っています。
